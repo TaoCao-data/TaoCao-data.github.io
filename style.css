@@ -26,6 +26,9 @@ section {
 ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
 }
 
 ul li {
@@ -38,6 +41,22 @@ a {
 }
 
 a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
     text-decoration: underline;
 }
 
