@@ -66,3 +66,9 @@ footer {
     margin-top: 30px;
     color: #666;
 }
+
+.update-item {
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
